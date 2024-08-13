@@ -10,16 +10,12 @@
                 <p class="text-white">Dating for techies.</p>
             </span>
 
-            <div class="bgHero">
-                <!-- <div class="h-32 overflow-hidden">
-                    <img src={landingImg} alt="">
-                </div> -->
-                <div class="w-full flex flex-col gap-5 mt-auto mb-16">
-                    <h3 class="text-white text-5xl font-extrabold">Tired Of Swiping <span class="text-pink-500">Left?</span></h3>
+                <div class="w-full flex flex-col gap-5 mt-auto mb-10">
+                    <h3 class="text-white text-5xl font-extrabold">Tired Of Swiping <span class="text-pink-600">Left?</span></h3>
                     <h5 class="text-xl text-white">You might be brilliant at building tech or creating art, but finding true love? That's a different algorithm. Let us help you find your perfect match.</h5>
                     <button class="btn border-0 w-56 bg-indigo-600 rounded-3xl text-xl text-white">Find My Match</button>
                 </div>
-            </div>
+            
         </section>
     
 </main>
@@ -31,12 +27,11 @@
     }
     section {
         min-height: 100vh;
-        /*  */
-        background-size: contain;
+        background-image: url("$lib/assets/bg-landing-2.jpg");
+        background-size: cover;
     }
 
     .bgHero {
-        background-image: url("$lib/assets/bg-landing-3.jpg");
         height: 90vh;
         padding: 15px;
         border-radius: 20px;
